@@ -121,7 +121,8 @@ border-image: linear-gradient (225deg, transparent 50%, var(--main-color)) 1;
 
 .home-img img, .about-img img{
 
-width: 100%;
+width: 70%;
+
 
 }
 
@@ -226,5 +227,60 @@ display: -webkit-box;
 -webkit-box-orient: vertical;
 overflow: hidden;
 text-overflow: ellipsis;
+
+}
+
+.portifolio {
+
+background-color: var(--bg-color-02);
+
+}
+
+.portifolio-container {
+
+display: grid;
+gap: 1.2rem;
+
+}
+
+.portifolio-box {
+
+position: relative;
+border-radius: 0.6rem;
+box-shadow: 0 0 0.6rem var(--bg-color-01);
+overflow: hidden;
+display: flex;
+
+}
+
+.portifolio-box img {
+
+width: 100%;
+transition: 0.5s ease;
+
+}
+
+.portifolio-box img:hover {
+
+  transform: scale(1.1);
+
+}
+
+.portifolio-box .portifolio-layer {
+
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: linear-gradient(transparent, var(--main-color));
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+padding: 0 4rem;
+transform: translateY(30rem);
+transition: 0.5 ease;
 
 }
