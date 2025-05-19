@@ -160,7 +160,7 @@ text-align: justify;
   }
 
   .services h2,
-  .portifolio h2,
+  .portfolio h2,
   .contact h2{
 
 font-size: 2.2rem;
@@ -230,20 +230,20 @@ text-overflow: ellipsis;
 
 }
 
-.portifolio {
+.portfolio {
 
 background-color: var(--bg-color-02);
 
 }
 
-.portifolio-container {
+.portfolio-container {
 
 display: grid;
 gap: 1.2rem;
 
 }
 
-.portifolio-box {
+.portfolio-box {
 
 position: relative;
 border-radius: 0.6rem;
@@ -253,20 +253,20 @@ display: flex;
 
 }
 
-.portifolio-box img {
+.portfolio-box img {
 
 width: 100%;
 transition: 0.5s ease;
 
 }
 
-.portifolio-box img:hover {
+.portfolio-box img:hover {
 
   transform: scale(1.1);
 
 }
 
-.portifolio-box .portifolio-layer {
+.portfolio-box .portfolio-layer {
 
 position: absolute;
 bottom: 0;
